@@ -1,0 +1,58 @@
+# Ego App Backend - Python Dependencies
+
+# Web Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# Database
+sqlalchemy==2.0.25
+asyncpg==0.29.0
+alembic==1.13.1
+
+# NoSQL (for flexible user data)
+motor==3.3.2  # Async MongoDB driver
+pymongo==4.6.1
+
+# Vector Database (RAG)
+pinecone-client==3.0.0
+# Alternative: qdrant-client==1.7.0
+
+# AI & LLM
+anthropic==0.18.0  # Claude API
+openai==1.10.0
+langchain==0.1.5
+langchain-anthropic==0.1.1
+
+# Embeddings
+sentence-transformers==2.3.1
+
+# Web3
+web3==6.15.0
+eth-account==0.10.0
+
+# IPFS
+ipfshttpclient==0.8.0a2
+
+# Authentication & Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+
+# Caching
+redis==5.0.1
+aioredis==2.0.1
+
+# Utils
+python-dotenv==1.0.0
+httpx==0.26.0
+tenacity==8.2.3
+
+# Monitoring
+sentry-sdk[fastapi]==1.39.2
+
+# Testing
+pytest==7.4.4
+pytest-asyncio==0.23.3
+httpx==0.26.0
